@@ -1,0 +1,2162 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>JSX简介 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="props.html" />
+    
+    
+    <link rel="prev" href="static-reference.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="GETTING-STARTED.html">
+            
+                <a href="GETTING-STARTED.html">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="GETTING-STARTED.html">
+            
+                <a href="GETTING-STARTED.html#安装">
+            
+                    
+                    安装使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="composition.html">
+            
+                <a href="composition.html">
+            
+                    
+                    Taro组成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="before-dev-remind.html">
+            
+                <a href="before-dev-remind.html">
+            
+                    
+                    开发前注意
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="specials.html">
+            
+                <a href="specials.html">
+            
+                    
+                    特殊问题的处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="tutorial.html">
+            
+                <a href="tutorial.html">
+            
+                    
+                    教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="tutorial.html">
+            
+                <a href="tutorial.html#项目目录结构">
+            
+                    
+                    Taro项目目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="tutorial.html">
+            
+                <a href="tutorial.html#入口文件">
+            
+                    
+                    入口文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="tutorial.html">
+            
+                <a href="tutorial.html#页面">
+            
+                    
+                    页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="router.html">
+            
+                <a href="router.html">
+            
+                    
+                    路由功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="size.html">
+            
+                <a href="size.html">
+            
+                    
+                    设计稿及尺寸单位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="static-reference.html">
+            
+                <a href="static-reference.html">
+            
+                    
+                    静态资源引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7" data-path="jsx.html">
+            
+                <a href="jsx.html">
+            
+                    
+                    JSX简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="props.html">
+            
+                <a href="props.html">
+            
+                    
+                    组件化 & props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="state.html">
+            
+                <a href="state.html">
+            
+                    
+                    生命周期 & state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="event.html">
+            
+                <a href="event.html">
+            
+                    
+                    事件处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="condition.html">
+            
+                <a href="condition.html">
+            
+                    
+                    条件渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="list.html">
+            
+                <a href="list.html">
+            
+                    
+                    列表渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="events.html">
+            
+                <a href="events.html">
+            
+                    
+                    消息机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="components.html">
+            
+                <a href="components.html">
+            
+                    
+                    组件库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    视图容器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="components/viewContainer/view.html">
+            
+                <a href="components/viewContainer/view.html">
+            
+                    
+                    View
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="components/viewContainer/scroll-view.html">
+            
+                <a href="components/viewContainer/scroll-view.html">
+            
+                    
+                    ScrollView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="components/viewContainer/swiper.html">
+            
+                <a href="components/viewContainer/swiper.html">
+            
+                    
+                    Swiper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="components/viewContainer/movable-view.html">
+            
+                <a href="components/viewContainer/movable-view.html">
+            
+                    
+                    MovableView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.5" data-path="components/viewContainer/cover-view.html">
+            
+                <a href="components/viewContainer/cover-view.html">
+            
+                    
+                    CoverView
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    基础内容
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="components/base/icon.html">
+            
+                <a href="components/base/icon.html">
+            
+                    
+                    Icon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="components/base/text.html">
+            
+                <a href="components/base/text.html">
+            
+                    
+                    Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="components/base/progress.html">
+            
+                <a href="components/base/progress.html">
+            
+                    
+                    Progress
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="components/base/rich-text.html">
+            
+                <a href="components/base/rich-text.html">
+            
+                    
+                    RichText
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" >
+            
+                <span>
+            
+                    
+                    表单组件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="components/forms/button.html">
+            
+                <a href="components/forms/button.html">
+            
+                    
+                    Button
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="components/forms/checkbox.html">
+            
+                <a href="components/forms/checkbox.html">
+            
+                    
+                    Checkbox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="components/forms/form.html">
+            
+                <a href="components/forms/form.html">
+            
+                    
+                    Form
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.4" data-path="components/forms/input.html">
+            
+                <a href="components/forms/input.html">
+            
+                    
+                    Input
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.5" data-path="components/forms/label.html">
+            
+                <a href="components/forms/label.html">
+            
+                    
+                    Label
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.6" data-path="components/forms/picker.html">
+            
+                <a href="components/forms/picker.html">
+            
+                    
+                    Picker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.7" data-path="components/forms/picker-view.html">
+            
+                <a href="components/forms/picker-view.html">
+            
+                    
+                    PickerView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.8" data-path="components/forms/radio.html">
+            
+                <a href="components/forms/radio.html">
+            
+                    
+                    Radio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.9" data-path="components/forms/slider.html">
+            
+                <a href="components/forms/slider.html">
+            
+                    
+                    Slider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.10" data-path="components/forms/switch.html">
+            
+                <a href="components/forms/switch.html">
+            
+                    
+                    Switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.11" data-path="components/forms/textarea.html">
+            
+                <a href="components/forms/textarea.html">
+            
+                    
+                    Textarea
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" >
+            
+                <span>
+            
+                    
+                    导航
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="components/navig/navigator.html">
+            
+                <a href="components/navig/navigator.html">
+            
+                    
+                    Navigator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" >
+            
+                <span>
+            
+                    
+                    媒体
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="components/media/audio.html">
+            
+                <a href="components/media/audio.html">
+            
+                    
+                    Audio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="components/media/image.html">
+            
+                <a href="components/media/image.html">
+            
+                    
+                    Image
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="components/media/video.html">
+            
+                <a href="components/media/video.html">
+            
+                    
+                    Video
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.4" data-path="components/media/camera.html">
+            
+                <a href="components/media/camera.html">
+            
+                    
+                    Camera
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" >
+            
+                <span>
+            
+                    
+                    地图
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="components/maps/map.html">
+            
+                <a href="components/maps/map.html">
+            
+                    
+                    Map
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="component.html">
+            
+                <a href="component.html">
+            
+                    
+                    Taro.Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="events.html">
+            
+                <a href="events.html">
+            
+                    
+                    Taro.Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="events.html">
+            
+                <a href="events.html">
+            
+                    
+                    Taro.eventCenter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="env.html">
+            
+                <a href="env.html#Taro.ENV_TYPE">
+            
+                    
+                    Taro.ENV_TYPE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="env.html">
+            
+                <a href="env.html#Taro.getEnv(">
+            
+                    
+                    Taro.getEnv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="native-api.html">
+            
+                <a href="native-api.html">
+            
+                    
+                    端能力API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="native-api.html">
+            
+                <a href="native-api.html#网络">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1.1" data-path="native-api.html">
+            
+                <a href="native-api.html#发起请求">
+            
+                    
+                    发起请求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.1.2" data-path="native-api.html">
+            
+                <a href="native-api.html#上传、下载">
+            
+                    
+                    上传、下载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.1.3" data-path="native-api.html">
+            
+                <a href="native-api.html#websocket">
+            
+                    
+                    WebSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="native-api.html">
+            
+                <a href="native-api.html#媒体">
+            
+                    
+                    媒体
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.2.1" data-path="native-api.html">
+            
+                <a href="native-api.html#图片">
+            
+                    
+                    图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.2" data-path="native-api.html">
+            
+                <a href="native-api.html#录音">
+            
+                    
+                    录音
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.3" data-path="native-api.html">
+            
+                <a href="native-api.html#录音管理">
+            
+                    
+                    录音管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.4" data-path="native-api.html">
+            
+                <a href="native-api.html#音频播放控制">
+            
+                    
+                    音频播放控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.5" data-path="native-api.html">
+            
+                <a href="native-api.html#音乐播放控制">
+            
+                    
+                    音乐播放控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.6" data-path="native-api.html">
+            
+                <a href="native-api.html#背景音频播放管理">
+            
+                    
+                    背景音频播放管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.7" data-path="native-api.html">
+            
+                <a href="native-api.html#音频组件控制">
+            
+                    
+                    音频组件控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.8" data-path="native-api.html">
+            
+                <a href="native-api.html#视频">
+            
+                    
+                    视频
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.9" data-path="native-api.html">
+            
+                <a href="native-api.html#视频组件控制">
+            
+                    
+                    视频组件控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2.10" data-path="native-api.html">
+            
+                <a href="native-api.html#相机组件控制">
+            
+                    
+                    相机组件控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.3" data-path="native-api.html">
+            
+                <a href="native-api.html#文件">
+            
+                    
+                    文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.4" data-path="native-api.html">
+            
+                <a href="native-api.html#数据缓存">
+            
+                    
+                    数据缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.5" data-path="native-api.html">
+            
+                <a href="native-api.html#位置">
+            
+                    
+                    位置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.5.1" data-path="native-api.html">
+            
+                <a href="native-api.html#获取位置">
+            
+                    
+                    获取位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.5.2" data-path="native-api.html">
+            
+                <a href="native-api.html#查看位置">
+            
+                    
+                    查看位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.5.3" data-path="native-api.html">
+            
+                <a href="native-api.html#地图组件控制">
+            
+                    
+                    地图组件控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6" data-path="native-api.html">
+            
+                <a href="native-api.html#设备">
+            
+                    
+                    设备
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.6.1" data-path="native-api.html">
+            
+                <a href="native-api.html#系统信息">
+            
+                    
+                    系统信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.2" data-path="native-api.html">
+            
+                <a href="native-api.html#网络状态">
+            
+                    
+                    网络状态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.3" data-path="native-api.html">
+            
+                <a href="native-api.html#加速度计">
+            
+                    
+                    加速度计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.4" data-path="native-api.html">
+            
+                <a href="native-api.html#罗盘">
+            
+                    
+                    罗盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.5" data-path="native-api.html">
+            
+                <a href="native-api.html#拨打电话">
+            
+                    
+                    拨打电话
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.6" data-path="native-api.html">
+            
+                <a href="native-api.html#扫码">
+            
+                    
+                    扫码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.7" data-path="native-api.html">
+            
+                <a href="native-api.html#剪贴板">
+            
+                    
+                    剪贴板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.8" data-path="native-api.html">
+            
+                <a href="native-api.html#蓝牙">
+            
+                    
+                    蓝牙
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.9" data-path="native-api.html">
+            
+                <a href="native-api.html#ibeacon">
+            
+                    
+                    iBeacon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.10" data-path="native-api.html">
+            
+                <a href="native-api.html#屏幕亮度">
+            
+                    
+                    屏幕亮度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.11" data-path="native-api.html">
+            
+                <a href="native-api.html#用户截屏事件">
+            
+                    
+                    用户截屏事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.12" data-path="native-api.html">
+            
+                <a href="native-api.html#振动">
+            
+                    
+                    振动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.13" data-path="native-api.html">
+            
+                <a href="native-api.html#手机联系人">
+            
+                    
+                    手机联系人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.14" data-path="native-api.html">
+            
+                <a href="native-api.html#nfc">
+            
+                    
+                    NFC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6.15" data-path="native-api.html">
+            
+                <a href="native-api.html#wi-fi">
+            
+                    
+                    Wi-Fi
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7" data-path="native-api.html">
+            
+                <a href="native-api.html#界面">
+            
+                    
+                    界面
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.7.1" data-path="native-api.html">
+            
+                <a href="native-api.html#交互反馈">
+            
+                    
+                    交互反馈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.2" data-path="native-api.html">
+            
+                <a href="native-api.html#设置导航条">
+            
+                    
+                    设置导航条
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.3" data-path="native-api.html">
+            
+                <a href="native-api.html#设置tabbar">
+            
+                    
+                    设置tabBar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.4" data-path="native-api.html">
+            
+                <a href="native-api.html#设置置顶信息">
+            
+                    
+                    设置置顶信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.5" data-path="native-api.html">
+            
+                <a href="native-api.html#导航">
+            
+                    
+                    导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.6" data-path="native-api.html">
+            
+                <a href="native-api.html#动画">
+            
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.7" data-path="native-api.html">
+            
+                <a href="native-api.html#taropagescrolltoobject">
+            
+                    
+                    位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.8" data-path="native-api.html">
+            
+                <a href="native-api.html#绘图">
+            
+                    
+                    绘图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.9" data-path="native-api.html">
+            
+                <a href="native-api.html#下拉刷新">
+            
+                    
+                    下拉刷新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7.10" data-path="native-api.html">
+            
+                <a href="native-api.html#wxml节点信息">
+            
+                    
+                    WXML节点信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    进阶指南
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="config.html">
+            
+                <a href="config.html">
+            
+                    
+                    项目配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="config-detail.html">
+            
+                <a href="config-detail.html#designWidth">
+            
+                    
+                    designWidth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="config-detail.html">
+            
+                <a href="config-detail.html#sourceRoot">
+            
+                    
+                    sourceRoot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="config-detail.html">
+            
+                <a href="config-detail.html#outputRoot">
+            
+                    
+                    outputRoot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.4" data-path="config-detail.html">
+            
+                <a href="config-detail.html#plugins">
+            
+                    
+                    plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.5" data-path="config-detail.html">
+            
+                <a href="config-detail.html#env">
+            
+                    
+                    env
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.6" data-path="config-detail.html">
+            
+                <a href="config-detail.html#defineConstants">
+            
+                    
+                    defineConstants
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.7" data-path="config-detail.html">
+            
+                <a href="config-detail.html#weapp">
+            
+                    
+                    weapp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.8" data-path="config-detail.html">
+            
+                <a href="config-detail.html#h5">
+            
+                    
+                    h5
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="async-await.html">
+            
+                <a href="async-await.html">
+            
+                    
+                    异步编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="redux.html">
+            
+                <a href="redux.html">
+            
+                    
+                    使用Redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="principle.md">
+            
+                <span>
+            
+                    
+                    技术原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="best-practice.html">
+            
+                <a href="best-practice.html">
+            
+                    
+                    最佳实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="debug.md">
+            
+                <span>
+            
+                    
+                    Debug 指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >JSX简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x5728; Taro &#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x4F7F;&#x7528; JSX &#x4F5C;&#x4E3A;&#x4E00;&#x79CD; DSL &#x8FDB;&#x800C;&#x7F16;&#x8BD1;&#x6210;&#x5404;&#x7AEF;&#x901A;&#x7528;&#x7684;&#x8BED;&#x6CD5;&#x3002; JSX &#x662F;&#x4E00;&#x79CD;&#x770B;&#x8D77;&#x6765;&#x5F88;&#x50CF; XML &#x7684; JavaScript &#x8BED;&#x6CD5;&#x6269;&#x5C55;&#xFF0C;&#x6BD4;&#x8D77;&#x6A21;&#x677F;&#x8BED;&#x8A00;&#xFF0C;&#x5B83;&#x5177;&#x6709;&#x4EE5;&#x4E0B;&#x4F18;&#x70B9;&#xFF1A;</p>
+<ol>
+<li>&#x5404;&#x5927;&#x7F16;&#x8F91;&#x5668;&#x548C; IDE &#x90FD;&#x80FD;&#x63D0;&#x4F9B;&#x975E;&#x5E38;&#x826F;&#x597D;&#x7684;&#x652F;&#x6301;&#xFF1B;</li>
+<li>&#x53EF;&#x4EE5;&#x505A;&#x5230;&#x7C7B;&#x578B;&#x5B89;&#x5168;&#xFF0C;&#x5728;&#x7F16;&#x8BD1;&#x671F;&#x5C31;&#x80FD;&#x53D1;&#x73B0;&#x9519;&#x8BEF;&#xFF1B;</li>
+<li>&#x63D0;&#x4F9B;&#x8BED;&#x4E49;&#x5316;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x79FB;&#x52A8;&#x7684;&#x6807;&#x7B7E;&#xFF1B;</li>
+<li>&#x80CC;&#x540E;&#x7684;&#x793E;&#x533A;&#x652F;&#x6301;&#x975E;&#x5E38;&#x5F3A;&#x529B;&#xFF1B;</li>
+</ol>
+<p>&#x5982;&#x679C;&#x4F60;&#x662F;&#x4E00;&#x540D;&#x65B0;&#x624B;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x80FD;&#x4E00;&#x5F00;&#x59CB;&#x5B66;&#x4E60;&#x4E00;&#x79CD;&#x65B0;&#x8BED;&#x6CD5;&#x4F1A;&#x4EA7;&#x751F;&#x4E00;&#x4E9B;&#x62B5;&#x89E6;&#x3002;&#x4F46;&#x5F53;&#x4F60;&#x719F;&#x6089;&#x4E86;&#x4E4B;&#x540E;&#xFF0C;&#x5C31;&#x80FD;&#x53D1;&#x73B0; JSX &#x7684;&#x66F4;&#x7B26;&#x5408;&#x7A0B;&#x5E8F;&#x8BED;&#x8A00;&#x7684;&#x4E66;&#x5199;&#x903B;&#x8F91;&#xFF0C;&#x5728;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x7CBE;&#x7EC6;&#x590D;&#x6742;&#x9700;&#x6C42;&#x7684;&#x65F6;&#x5019;&#x4E5F;&#x4F1A;&#x6BD4;&#x6A21;&#x677F;&#x8BED;&#x8A00;&#x66F4;&#x4E3A;&#x5F97;&#x5FC3;&#x5E94;&#x624B;&#x3002;</p>
+<h2 id="&#x4F7F;&#x7528;-jsx">&#x4F7F;&#x7528; JSX</h2>
+<p>&#x8BF7;&#x89C2;&#x5BDF;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> Taro, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@tarojs/taro&apos;</span>
+<span class="hljs-keyword">import</span> { View } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@tarojs/components&apos;</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Home</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Components</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span>Hello World!<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
+        )
+    }
+}
+</code></pre>
+<h3 id="&#x5FC5;&#x987B;&#x58F0;&#x660E;-taro-&#x548C;&#x7EC4;&#x4EF6;">&#x5FC5;&#x987B;&#x58F0;&#x660E; <code>Taro</code> &#x548C;&#x7EC4;&#x4EF6;</h3>
+<p>&#x5728;&#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x5927;&#x5199;&#x5F00;&#x5934;&#x7684; JSX &#x6807;&#x7B7E; <code>View</code> &#x8868;&#x793A;&#x5B83;&#x662F;&#x4E00;&#x4E2A; Taro &#x7EC4;&#x4EF6;&#xFF0C;&#x5C3D;&#x7BA1;&#x5728;&#x6574;&#x6BB5;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x53D8;&#x91CF; <code>View</code>  &#x770B;&#x8D77;&#x6765;&#x5E76;&#x6CA1;&#x6709;&#x88AB;&#x8C03;&#x7528;&#xFF0C;&#x4F46;&#x4E5F;&#x5FC5;&#x987B;&#x4ECE; <code>@tarojs/components</code>  &#x4E2D;&#x5F15;&#x5165;&#x58F0;&#x660E;&#x3002;&#x53D8;&#x91CF; <code>Taro</code> &#x4E5F;&#x662F;&#x4E00;&#x4E2A;&#x5FC5;&#x987B;&#x5F15;&#x5165;&#x58F0;&#x660E;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x56E0;&#x4E3A;&#x6211;&#x4EEC;&#x5728;&#x7F16;&#x8BD1;&#x671F;&#x548C;&#x8FD0;&#x884C;&#x65F6;&#x4F1A;&#x4F9D;&#x8D56;&#x8FD9;&#x4E2A;&#x53D8;&#x91CF;&#x505A;&#x4E00;&#x4E9B;&#x7279;&#x6B8A;&#x5904;&#x7406;&#x3002;<strong>&#x5F53;&#x4F60;&#x5F15;&#x5165;&#x4E86;&#x7EC4;&#x4EF6;&#x65F6;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x4F7F;&#x7528;&#xFF0C;&#x4E0D;&#x8981;&#x51FA;&#x73B0;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x7684;&#x53D8;&#x91CF;&#x3002;</strong></p>
+<blockquote>
+<p>&#x5F53;&#x4F60;&#x53EA;&#x7528;&#x652F;&#x6301;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0D;&#x7528;&#x5F15;&#x5165;&#x7EC4;&#x4EF6;&#x4F8B;&#x5982;  <code>View</code> &#x8FD9;&#x6837;&#x7684;&#x58F0;&#x660E;&#x3002;&#x4F46;&#x6211;&#x4EEC;&#x4ECD;&#x7136;&#x5F3A;&#x70C8;&#x63A8;&#x8350;&#x4F60;&#x5728;&#x9876;&#x90E8;&#x5F15;&#x5165;&#x4F60;&#x5C06;&#x8981;&#x4F7F;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x8FD9;&#x6837;&#x7F16;&#x8F91;&#x5668;/IDE &#x80FD;&#x66F4;&#x597D;&#x5730;&#x63D0;&#x524D;&#x53D1;&#x73B0;&#x53EF;&#x80FD;&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x4E5F;&#x4E3A;&#x5C06;&#x6765;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x7684;&#x591A;&#x7AEF;&#x8F6C;&#x6362;&#x7559;&#x6709;&#x4F59;&#x5730;&#x3002;</p>
+</blockquote>
+<h3 id="&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#x4E0E;&#x9A7C;&#x5CF0;&#x5F0F;&#x547D;&#x540D;">&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#x4E0E;&#x9A7C;&#x5CF0;&#x5F0F;&#x547D;&#x540D;</h3>
+<p>&#x5728; Taro &#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x7EC4;&#x4EF6;&#x90FD;&#x5E94;&#x5F53;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#x5E76;&#x4E14;&#x4F7F;&#x7528;&#x5927;&#x9A7C;&#x5CF0;&#x5F0F;&#x547D;&#x540D;&#x6CD5;&#xFF08;Camel-Case&#xFF09;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x5C06;&#x65E0;&#x6CD5;&#x6309;&#x9884;&#x671F;&#x8FD0;&#x884C;&#xFF1A;</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> Taro, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@tarojs/taro&apos;</span>
+<span class="hljs-comment">// &#x5F15;&#x5165;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7EC4;&#x4EF6;</span>
+<span class="hljs-keyword">import</span> home_page <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./page&apos;</span>
+
+<span class="hljs-comment">// &#x9519;&#x8BEF;&#xFF01;&#x7EC4;&#x4EF6;&#x540D;&#x5E94;&#x8BE5;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;:</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Components</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">home_page</span> <span class="hljs-attr">message</span>=<span class="hljs-string">&quot;Hello World!&quot;</span> /&gt;</span>
+        )
+    }
+}
+</span></code></pre>
+<p>&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x6211;&#x4EEC;&#x5C06; <code>home_page</code> &#x91CD;&#x547D;&#x540D;&#x4E3A; <code>HomePage</code>&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528; <code>&lt;HomePage /&gt;</code> &#x5F15;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> Taro, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@tarojs/taro&apos;</span>
+<span class="hljs-comment">// &#x5F15;&#x5165;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7EC4;&#x4EF6;</span>
+<span class="hljs-keyword">import</span> HomePage <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./page&apos;</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Components</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">HomePage</span> <span class="hljs-attr">message</span>=<span class="hljs-string">&quot;Hello World!&quot;</span> /&gt;</span>
+        )
+    }
+}
+</span></code></pre>
+<blockquote>
+<p>&#x548C; React/Nerv &#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;&#x5728;&#x4E8E;&#xFF0C;Taro &#x4E0D;&#x652F;&#x6301;&#x4F7F;&#x7528; <code>&#x70B9;&#x8868;&#x793A;&#x6CD5;</code> &#x548C;<a href="https://reactjs.org/docs/jsx-in-depth.html#choosing-the-type-at-runtime" target="_blank">&#x8FD0;&#x884C;&#x65F6;&#x6307;&#x5B9A;&#x7C7B;&#x578B;</a>&#x6765;&#x5F15;&#x7528;&#x7EC4;&#x4EF6;&#xFF0C;&#x4F8B;&#x5982; <code>&lt;MyComponents.DatePicker /&gt;</code> &#x8FD9;&#x6837;&#x7684;&#x5199;&#x6CD5;&#x5728; Taro &#x4E2D;&#x662F;&#x65E0;&#x6CD5;&#x6B63;&#x786E;&#x7F16;&#x8BD1;&#x7684;&#x3002;</p>
+</blockquote>
+<h2 id="&#x5C5E;&#x6027;">&#x5C5E;&#x6027;</h2>
+<p>&#x5728; JSX &#x4E2D;&#x6709;&#x51E0;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x6307;&#x5B9A;&#x5C5E;&#x6027;&#x3002;</p>
+<h3 id="&#x4F7F;&#x7528;-javascript-&#x8868;&#x8FBE;&#x5F0F;">&#x4F7F;&#x7528; JavaScript &#x8868;&#x8FBE;&#x5F0F;</h3>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x4EFB;&#x610F;&#x5730;&#x5728; JSX &#x5F53;&#x4E2D;&#x4F7F;&#x7528; <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Expressions_and_Operators#%E8%A1%A8%E8%BE%BE%E5%BC%8F" target="_blank">JavaScript &#x8868;&#x8FBE;&#x5F0F;</a>&#xFF0C;&#x5728; JSX &#x5F53;&#x4E2D;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x8981;&#x5305;&#x542B;&#x5728;&#x5927;&#x62EC;&#x53F7;&#x91CC;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A; JSX &#x4E2D;&#xFF1A;</p>
+<pre><code class="lang-jsx">&lt;MyComponent foo={<span class="hljs-number">1</span> + <span class="hljs-number">2</span> + <span class="hljs-number">3</span> + <span class="hljs-number">4</span>} /&gt;
+</code></pre>
+<p>&#x5BF9;&#x4E8E; MyComponent &#x6765;&#x8BF4;&#xFF0C; props.foo &#x7684;&#x503C;&#x4E3A; 10&#xFF0C;&#x8FD9;&#x662F; 1 + 2 + 3 + 4 &#x8868;&#x8FBE;&#x5F0F;&#x8BA1;&#x7B97;&#x5F97;&#x51FA;&#x7684;&#x3002;</p>
+<p>if &#x8BED;&#x53E5;&#x548C; for &#x5FAA;&#x73AF;&#x5728; JavaScript &#x4E2D;&#x4E0D;&#x662F;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x56E0;&#x6B64;&#x5B83;&#x4EEC;&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x5728; JSX &#x4E2D;&#x4F7F;&#x7528;&#xFF0C;&#x6240;&#x4EE5;&#x4F60;&#x53EF;&#x4EE5;&#x5C06;&#x5B83;&#x4EEC;&#x653E;&#x5728;&#x5468;&#x56F4;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#x3002;</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> Taro, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@tarojs/taro&apos;</span>
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Components</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> (
+          <span class="hljs-keyword">let</span> description;
+          <span class="hljs-keyword">if</span> (props.number % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) {
+            description = <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>even<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>;
+          } <span class="hljs-keyword">else</span> {
+            description = <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>odd<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>;
+          }
+            <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span>{this.props.number} is an {description} number<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>;
+        )
+    }
+}
+</code></pre>
+<h3 id="&#x5B57;&#x7B26;&#x4E32;&#x5E38;&#x91CF;">&#x5B57;&#x7B26;&#x4E32;&#x5E38;&#x91CF;</h3>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x5E38;&#x91CF;&#x4F5C;&#x4E3A;&#x5C5E;&#x6027;&#x503C;&#x4F20;&#x9012;&#x3002;&#x4E0B;&#x9762;&#x8FD9;&#x4E24;&#x4E2A; JSX &#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x7B49;&#x4EF7;&#x7684;&#xFF1A;</p>
+<pre><code class="lang-jsx">&lt;MyComponent message=<span class="hljs-string">&quot;hello world&quot;</span> /&gt;
+
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">MyComponent</span> <span class="hljs-attr">message</span>=<span class="hljs-string">{&apos;hello</span> <span class="hljs-attr">world</span>&apos;} /&gt;</span>
+</span></code></pre>
+<h3 id="&#x9ED8;&#x8BA4;&#x4E3A;-true">&#x9ED8;&#x8BA4;&#x4E3A; True</h3>
+<p>&#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x7ED9;&#x5C5E;&#x6027;&#x4F20;&#x503C;&#xFF0C;&#x5B83;&#x9ED8;&#x8BA4;&#x4E3A; true&#x3002;&#x56E0;&#x6B64;&#x4E0B;&#x9762;&#x4E24;&#x4E2A; JSX &#x662F;&#x7B49;&#x4EF7;&#x7684;&#xFF1A;</p>
+<pre><code class="lang-js">&lt;MyTextBox autocomplete /&gt;
+
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">MyTextBox</span> <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">{true}</span> /&gt;</span>
+</span></code></pre>
+<blockquote>
+<p>&#x548C; React/Nerv &#x7684;&#x4E0D;&#x540C;&#xFF1A;
+React &#x53EF;&#x4EE5;&#x4F7F;&#x7528; <code>...</code> &#x62D3;&#x5C55;&#x64CD;&#x4F5C;&#x7B26;&#x6765;&#x4F20;&#x9012;&#x5C5E;&#x6027;&#xFF0C;&#x4F46;&#x5728; Taro &#x4E2D;&#x4F60;&#x4E0D;&#x80FD;&#x8FD9;&#x4E48;&#x505A;&#x3002;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>const props = {firstName: &#x2018;Plus&#x2019;, lastName: &#x2019;Second&#x2019;}
+return &lt;Greeting {...props} /&gt;
+</code></pre><p>&#x8FD9;&#x6837;&#x7684;&#x64CD;&#x4F5C;&#x4F1A;&#x62A5;&#x9519;&#x3002;&#x4F60;&#x53EA;&#x80FD;&#x624B;&#x52A8;&#x5730;&#x628A;&#x6240;&#x6709;&#x9700;&#x8981;&#x5F15;&#x7528;&#x7684; props &#x5199;&#x4E0A;&#x53BB;&#xFF1A;
+<code>&lt;Greeting firstName=&quot;Plus&quot; lastName=&quot;Second&quot; /&gt;</code></p>
+</blockquote>
+<h3 id="&#x5D4C;&#x5957;">&#x5D4C;&#x5957;</h3>
+<p>&#x5982;&#x679C; JSX &#x6807;&#x7B7E;&#x662F;&#x95ED;&#x5408;&#x5F0F;&#x7684;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x9700;&#x8981;&#x5728;&#x7ED3;&#x5C3E;&#x5904;&#x7528; /&gt;, &#x5C31;&#x597D;&#x50CF; XML/HTML &#x4E00;&#x6837;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> element = <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Image</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{user.avatarUrl}</span> /&gt;</span>;
+</span></code></pre>
+<p>JSX &#x6807;&#x7B7E;&#x540C;&#x6837;&#x53EF;&#x4EE5;&#x76F8;&#x4E92;&#x5D4C;&#x5957;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> element = (
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Hello!<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Good to see you here.<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
+);
+</code></pre>
+<p>JavaScript &#x8868;&#x8FBE;&#x5F0F;&#x4E5F;&#x53EF;&#x4EE5;&#x5D4C;&#x5957;&#xFF1A;</p>
+<pre><code class="lang-javascript">render () {
+      <span class="hljs-keyword">const</span> todos = [<span class="hljs-string">&apos;finish doc&apos;</span>, <span class="hljs-string">&apos;submit pr&apos;</span>, <span class="hljs-string">&apos;nag dan to review&apos;</span>];
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+      {todos.map((todo) =&gt; <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>{todo}<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>)}
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></span>
+  );
+}
+</code></pre>
+<h3 id="&#x5E03;&#x5C14;&#x503C;&#x3001;null-&#x548C;-undefined-&#x88AB;&#x5FFD;&#x7565;">&#x5E03;&#x5C14;&#x503C;&#x3001;Null &#x548C; Undefined &#x88AB;&#x5FFD;&#x7565;</h3>
+<p>false&#x3001;null&#x3001;undefined &#x548C; true &#x90FD;&#x662F;&#x6709;&#x6548;&#x7684; children&#xFF0C;&#x4F46;&#x5B83;&#x4EEC;&#x4E0D;&#x4F1A;&#x76F4;&#x63A5;&#x88AB;&#x6E32;&#x67D3;&#x3002;&#x4E0B;&#x9762;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x7B49;&#x4EF7;&#x7684;&#xFF1A;</p>
+<pre><code class="lang-javascript">&lt;View /&gt;
+
+&lt;View&gt;&lt;/View&gt;
+
+&lt;View&gt;{false}&lt;/View&gt;
+
+&lt;View&gt;{null}&lt;/View&gt;
+
+&lt;View&gt;{undefined}&lt;/View&gt;
+
+&lt;View&gt;{true}&lt;/View&gt;
+</code></pre>
+<p>&#x8FD9;&#x5728;&#x6839;&#x636E;&#x6761;&#x4EF6;&#x6765;&#x786E;&#x5B9A;&#x662F;&#x5426;&#x6E32;&#x67D3; &#x5143;&#x7D20;&#x65F6;&#x975E;&#x5E38;&#x6709;&#x7528;&#x3002;&#x4EE5;&#x4E0B;&#x7684;JSX&#x53EA;&#x4F1A;&#x5728;showHeader&#x4E3A;true&#x65F6;&#x6E32;&#x67D3;<header>&#x7EC4;&#x4EF6;&#x3002;</header></p>
+<pre><code class="lang-javascript">&lt;View&gt;
+  {showHeader &amp;&amp; <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Header</span> /&gt;</span>}
+  <span class="hljs-tag">&lt;<span class="hljs-name">Content</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
+</span></code></pre>
+<h2 id="&#x4E0E;-reactnerv-&#x6700;&#x5927;&#x7684;&#x4E0D;&#x540C;">&#x4E0E; React/Nerv &#x6700;&#x5927;&#x7684;&#x4E0D;&#x540C;</h2>
+<h3 id="&#x5C5E;&#x6027;&#x4E0D;&#x80FD;&#x4F20;&#x5165;-jsx-&#x5143;&#x7D20;">&#x5C5E;&#x6027;&#x4E0D;&#x80FD;&#x4F20;&#x5165; JSX &#x5143;&#x7D20;</h3>
+<p>&#x8003;&#x8651;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> element = &lt;Content footer={&lt;View /&gt;} /&gt;
+</code></pre>
+<p>&#x8FD9;&#x6837;&#x7684;&#x4EE3;&#x7801;&#x5728; Nerv/React &#x4E2D;&#x4F7F;&#x7528;&#x662F;&#x6CA1;&#x6709;&#x95EE;&#x9898;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5728; Taro &#x4E2D;&#x4E0D;&#x80FD;&#x8FD9;&#x4E48;&#x505A;&#x3002;</p>
+<blockquote>
+<p>&#x7531;&#x4E8E;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x5185;&#x7F6E;&#x7684;&#x7EC4;&#x4EF6;&#x5316;&#x7684;&#x7CFB;&#x7EDF;&#x4E0D;&#x80FD;&#x901A;&#x8FC7;&#x5C5E;&#x6027;&#xFF08;props&#xFF09; &#x4F20;&#x51FD;&#x6570;&#xFF0C;&#x800C; props &#x4F20;&#x9012;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x8BF4; React &#x4F53;&#x7CFB;&#x7684;&#x6839;&#x57FA;&#x4E4B;&#x4E00;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x80FD;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;&#x4E86;&#x4E00;&#x5957;&#x7EC4;&#x4EF6;&#x5316;&#x7CFB;&#x7EDF;&#x3002;&#x800C;&#x81EA;&#x5236;&#x7684;&#x7EC4;&#x4EF6;&#x5316;&#x7CFB;&#x7EDF;&#x5219;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;&#x5185;&#x7F6E;&#x7EC4;&#x4EF6;&#x5316;&#x7684; <code>slot</code> &#x529F;&#x80FD;&#x3002;&#x4E24;&#x6743;&#x76F8;&#x5BB3;&#x53D6;&#x5176;&#x8F7B;&#xFF0C;&#x6211;&#x4EEC;&#x6682;&#x65F6;&#x53EA;&#x80FD;&#x5BF9;&#x8FD9;&#x4E2A;&#x529F;&#x80FD;&#x5FCD;&#x75DB;&#x5272;&#x7231;&#x4E86;&#x3002;</p>
+</blockquote>
+<h3 id="&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x4E0D;&#x80FD;&#x5D4C;&#x5957;&#x5B50;&#x5143;&#x7D20;">&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x4E0D;&#x80FD;&#x5D4C;&#x5957;&#x5B50;&#x5143;&#x7D20;</h3>
+<p>&#x8003;&#x8651;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Tabs.js</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tabs</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Componenet</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span> {this.props.children} <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
+    }
+}
+<span class="hljs-comment">// App.js</span>
+<span class="hljs-keyword">import</span> Tabs <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./tabs&apos;</span>
+<span class="hljs-keyword">import</span> TabItem <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./tab-item&apos;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Componenet</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> (
+            &lt;Tabs&gt;
+                &lt;TabItem content=&apos;&#x9996;&#x5C4F;&apos; /&gt;
+                &lt;TabItem content=&apos;&#x4E8C;&#x5C4F;&apos; /&gt;
+            &lt;/Tabs&gt;
+        )
+    }
+}
+</code></pre>
+<p>&#x8FD9;&#x6837;&#x7684;&#x4EE3;&#x7801;&#x5728; Taro &#x4E2D;&#x4E5F;&#x4E0D;&#x80FD;&#x8FD0;&#x884C;&#x3002;&#x5728; Nerv/React &#x4E2D;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x5D4C;&#x5957;&#x5B9E;&#x9645;&#x4E0A;&#x4E5F;&#x662F;&#x901A;&#x8FC7; <code>props</code> &#x6765;&#x5B9E;&#x73B0;&#x7684;&#xFF0C;&#x53EA;&#x662F; <code>children</code> &#x662F;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684; <code>prop</code> &#x3002;&#x800C;&#x5BF9;&#x4E8E; Taro&#xFF0C;&#x524D;&#x6587;&#x5DF2;&#x9610;&#x8FF0;&#x8FC7;&#x4E0D;&#x80FD;&#x901A;&#x8FC7; <code>props</code> &#x6765;&#x4F20;&#x9012; JSX &#x5143;&#x7D20;&#x3002;&#x4E0A;&#x8FF0;&#x7684;&#x4EE3;&#x7801;&#x53EF;&#x6539;&#x5199;&#x6210;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Tabs.js</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tabs</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Componenet</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> &lt;View&gt;
+            {this.props.items.map(item =&gt; {
+                return &lt;TabItem content ={item} /&gt;
+            })}
+        &lt;/View&gt;
+    }
+}
+// App.js
+import Tabs from &apos;./tabs&apos;
+class App extends Componenet {
+    state = {
+        items: [&apos;&#x9996;&#x5C4F;&apos;, &apos;&#x4E8C;&#x5C4F;&apos;]
+    }
+    render () {
+        return (
+            &lt;Tabs items={this.state.items} /&gt;
+        )
+    }
+}
+</code></pre>
+<blockquote>
+<p>&#x539F;&#x751F;&#x7EC4;&#x4EF6;&#xFF08;&#x4ECE; <code>@tarojs/components</code> &#x5F15;&#x5165;&#x8FDB;&#x6765;&#x7684;&#x7EC4;&#x4EF6;&#xFF09;&#x662F;&#x53EF;&#x4EE5;&#x5D4C;&#x5957;&#x5B50;&#x5143;&#x7D20;&#x7684;&#x3002;</p>
+</blockquote>
+<h3 id="&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x540D;&#x79F0;&#x5FC5;&#x987B;&#x548C;&#x5F15;&#x5165;&#x65F6;&#x4E00;&#x81F4;">&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x540D;&#x79F0;&#x5FC5;&#x987B;&#x548C;&#x5F15;&#x5165;&#x65F6;&#x4E00;&#x81F4;</h3>
+<p>&#x8003;&#x8651;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Tabs.js</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tabs</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Componenet</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span> {this.props.children} <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
+    }
+}
+<span class="hljs-comment">// App.js</span>
+<span class="hljs-keyword">import</span> Tabset <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./tabs&apos;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Componenet</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Tabset</span> &gt;</span>
+        )
+    }
+}
+</span></code></pre>
+<p>&#x5728; React/Nerv &#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x628A;&#x7EC4;&#x4EF6;&#x7684;&#x540D;&#x79F0;&#x547D;&#x540D;&#x4E3A;&#x4EFB;&#x4F55;&#x9075;&#x5FAA; JavaScript &#x89C4;&#x8303;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x901A;&#x8FC7; <code>export default</code> &#x5BFC;&#x51FA;&#x65F6;&#x518D;&#x901A;&#x8FC7; <code>import</code> &#x5F15;&#x5165;&#xFF0C;&#x53C8;&#x53EF;&#x4EE5;&#x7ED9;&#x4ED6;&#x547D;&#x540D;&#x4E3A;&#x4E00;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x540D;&#x5B57;&#x3002;&#x4F46;&#x5728; Taro &#x4E2D;&#x4F60;&#x4E0D;&#x80FD;&#x8FD9;&#x4E48;&#x505A;&#xFF0C;&#x5F53;&#x8F6C;&#x6362;&#x6210;&#x5C0F;&#x7A0B;&#x5E8F;&#x65F6;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x5B9E;&#x9645;&#x4E0A;&#x4F1A;&#x5305;&#x4E00;&#x5C42; <code>template</code> &#x7EC4;&#x4EF6;&#xFF0C;&#x800C; <code>template</code> &#x7684; <code>name</code> &#x5C5E;&#x6027;&#x5FC5;&#x987B;&#x662F;&#x548C; <code>class</code> &#x5B9A;&#x4E49;&#x7684;&#x540D;&#x79F0;&#x4E00;&#x81F4;&#x7684;&#xFF0C;&#x5426;&#x5219; Taro &#x65E0;&#x6CD5;&#x627E;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x7EC4;&#x4EF6;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Tabs.js</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tabs</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Componenet</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span> {this.props.children} <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
+    }
+}
+<span class="hljs-comment">// App.js</span>
+<span class="hljs-comment">// &#x5B9A;&#x4E49; `Tabs`&#xFF0C;&#x5F15;&#x5165;&#x540D;&#x79F0;&#x4E5F;&#x5FC5;&#x987B;&#x662F; `Tabs`</span>
+<span class="hljs-keyword">import</span> Tabs <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./tabs&apos;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Componenet</span> </span>{
+    render () {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> &gt;</span>
+        )
+    }
+}
+</span></code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="static-reference.html" class="navigation navigation-prev " aria-label="Previous page: 静态资源引用">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="props.html" class="navigation navigation-next " aria-label="Next page: 组件化 & props">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"JSX简介","level":"1.3.7","depth":2,"next":{"title":"组件化 & props","level":"1.3.8","depth":2,"path":"props.md","ref":"props.md","articles":[]},"previous":{"title":"静态资源引用","level":"1.3.6","depth":2,"path":"static-reference.md","ref":"static-reference.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"jsx.md","mtime":"2018-06-21T07:29:44.121Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-21T07:31:10.975Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
